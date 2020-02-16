@@ -18,11 +18,11 @@ img {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 24px;;
+  font-size: 20px;;
 }
 
 h3 {
@@ -31,16 +31,18 @@ h3 {
 
 /*Eastbound etc*/
 .direction{
-padding: 8px;
-  color: #aaaaaa;
+padding: 4px 0 4px 8px;
+color: #aaaaaa;
+background-color: #0F273C;
+margin-top: 4px;
+margin-bottom: 4px;
+margin-right: -1px;
 }
 
 /*Washington and State bar*/
 .parentbar {
   width: 375px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
+padding: 8px;
   background-color: #ff5959;
   display: block;
 }
@@ -53,17 +55,21 @@ padding: 8px;
   width: 17%;
   display: inline-block;
   padding: 8px 0px 2px 8px;
+  background-color: #0F273C;
 }
 
 .destination{
   width: 42%;
   display: inline-block;
-  padding-left: 8px;
+  padding: 8px 0px 2px 8px;
+  background-color: #0F273C;
 }
 .time{
-  width: 32%;
+  width: 39%;
   display: inline-block;
-  padding-left: 8px;
+  padding: 8px 0px 2px 8px;
+  margin-right: -2px;
+  background-color: #0F273C;
 }
 
 
@@ -75,16 +81,17 @@ padding: 8px;
 .line2 {
   width: 17%;
   display: inline-block;
-  padding-left: 8px;
+  padding: 2px 0 2px 8px;
 }
 
 .destination2{
   width: 42%;
   display: inline-block;
-  padding-left: 8px;
+  padding: 2px 0 2px 8px;
 }
 .time2{
-  width: 38%;
+  width: 39%;
   display: inline-block;
-  padding-left: 8px;
+  padding: 2px 0 2px 8px;
+  margin-right: -2px;
 }
