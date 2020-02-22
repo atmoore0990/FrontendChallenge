@@ -4,6 +4,7 @@ body {
   background-color: #001930;
   font-family: sans-serif;
   color: #ffffff;
+  font-size: 16px;
 }
 
 .container{
@@ -18,26 +19,9 @@ img {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-h2 {
-  font-size: 20px;;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-/*Eastbound etc*/
-.direction{
-padding: 4px 0 4px 8px;
-color: #aaaaaa;
-background-color: #0F273C;
-margin-top: 4px;
-margin-bottom: 4px;
-margin-right: -1px;
-}
 
 /*Washington and State bar*/
 .parentbar {
@@ -48,46 +32,12 @@ margin-right: -1px;
 }
 
 
-/*these are for the parents*/
-
-
-.line {
-  width: 17%;
-  display: inline-block;
-  padding: 8px 0px 2px 8px;
-  background-color: #0F273C;
-}
-
-.destination{
-  width: 42%;
-  display: inline-block;
-  padding: 8px 0px 2px 8px;
-  background-color: #0F273C;
-}
-.time{
-  width: 39%;
-  display: inline-block;
-  padding: 8px 0px 2px 8px;
-  margin-right: -2px;
-  background-color: #0F273C;
-}
-
-
-
-
-/*these are for the children*/
-
-
-
-
-
-
 
 .line2 {
   width: 22%;
   display: inline-block;
   padding: 2px 0 2px 8px;
-  line-height: 160%;
+  line-height: 200%;
 
 }
 
@@ -95,12 +45,45 @@ margin-right: -1px;
   width: 56%;
   display: inline-block;
   padding: 2px 0 2px 8px;
-  line-height: 160%;
+  line-height: 200%;
 }
 .time2{
   width: 20%;
   display: inline-block;
   padding: 2px 0 2px 8px;
   margin-right: -2px;
-  line-height: 160%;
+  line-height: 200%;
+}
+
+
+/*this is for anything larger than a mobile screen*/
+@media all and (min-width: 575px)
+{
+  .container{
+  	display: block;
+    width: 600px;
+  }
+
+  .parentbar {
+      width: 600px;
+      padding: 8px;
+      background-color: #ff5959;
+      display: block;
+    }
+
+    img {
+      max-width: 600px;
+      display: block;
+    }
+
+    body {
+      background-color: #001930;
+      font-family: sans-serif;
+      color: #ffffff;
+      font-size: 24px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
 }
