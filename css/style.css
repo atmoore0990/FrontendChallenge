@@ -42,7 +42,7 @@ margin-right: -1px;
 /*Washington and State bar*/
 .parentbar {
   width: 375px;
-padding: 8px;
+  padding: 8px;
   background-color: #ff5959;
   display: block;
 }
@@ -78,20 +78,29 @@ padding: 8px;
 /*these are for the children*/
 
 
+
+
+
+
+
 .line2 {
-  width: 17%;
+  width: 22%;
   display: inline-block;
   padding: 2px 0 2px 8px;
+  line-height: 160%;
+
 }
 
 .destination2{
-  width: 42%;
+  width: 56%;
   display: inline-block;
   padding: 2px 0 2px 8px;
+  line-height: 160%;
 }
 .time2{
-  width: 39%;
+  width: 20%;
   display: inline-block;
   padding: 2px 0 2px 8px;
   margin-right: -2px;
+  line-height: 160%;
 }
