@@ -8,6 +8,7 @@ body {
 }
 
 .container{
+  margin: auto;
 	display: block;
   width: 375px;
 
@@ -22,6 +23,14 @@ h1 {
   font-size: 24px;
 }
 
+h2{
+  font-size: 16px;
+
+}
+
+li{
+  border-bottom: 1px solid #444444;
+}
 
 /*Washington and State bar*/
 .parentbar {
@@ -38,7 +47,6 @@ h1 {
   display: inline-block;
   padding: 2px 0 2px 8px;
   line-height: 200%;
-
 }
 
 .destination2{
@@ -86,4 +94,5 @@ h1 {
     h1 {
       font-size: 30px;
     }
+
 }
