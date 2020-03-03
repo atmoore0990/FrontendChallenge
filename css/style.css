@@ -3,15 +3,14 @@
 body {
   background-color: #001930;
   font-family: sans-serif;
+  font-family: 'Roboto';
   color: #ffffff;
-  font-size: 16px;
 }
 
 .container{
   margin: auto;
 	display: block;
   width: 375px;
-
 }
 
 img {
@@ -24,41 +23,50 @@ h1 {
 }
 
 h2{
-  font-size: 16px;
-
+  font-size: 14px;
+  font-style: italic;
 }
 
 li{
-  border-bottom: 1px solid #444444;
+  background-color: #0F273C;
+  border-bottom: solid #001930;
+  padding-left: 5px;
 }
+
+.arriving{
+    background-color: #405264;
+}
+
+
 
 /*Washington and State bar*/
 .parentbar {
   width: 375px;
   padding: 8px;
   background-color: #ff5959;
+  border-bottom: solid #001930;
   display: block;
 }
 
 
-
 .line2 {
-  width: 22%;
+  width: 26%;
   display: inline-block;
-  padding: 2px 0 2px 8px;
+  border-left: 8px;
+  margin-right: -12px;
   line-height: 200%;
+
 }
 
 .destination2{
   width: 56%;
   display: inline-block;
-  padding: 2px 0 2px 8px;
   line-height: 200%;
+  margin-right: -12px;
 }
 .time2{
-  width: 20%;
+  width: 22%;
   display: inline-block;
-  padding: 2px 0 2px 8px;
   margin-right: -2px;
   line-height: 200%;
 }
@@ -74,13 +82,11 @@ li{
 
   .parentbar {
       width: 600px;
-      padding: 8px;
       background-color: #ff5959;
       display: block;
     }
 
     img {
-      max-width: 600px;
       display: block;
     }
 
@@ -93,6 +99,19 @@ li{
 
     h1 {
       font-size: 30px;
+    }
+
+    h2{
+      font-size: 18px;
+      font-style: italic;
+    }
+
+
+    .time2{
+      width: 20%;
+      display: inline-block;
+      margin-right: -2px;
+      line-height: 200%;
     }
 
 }
