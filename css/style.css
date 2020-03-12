@@ -10,7 +10,7 @@ body {
 .container{
   margin: auto;
 	display: block;
-  width: 375px;
+  width: 100%;
 }
 
 img {
@@ -41,7 +41,7 @@ li{
 
 /*Washington and State bar*/
 .parentbar {
-  width: 375px;
+  width: 100%;
   padding: 8px;
   background-color: #ff5959;
   border-bottom: solid #001930;
@@ -50,25 +50,25 @@ li{
 
 
 .line2 {
-  width: 26%;
+  width: 31%;
   display: inline-block;
-  border-left: 8px;
-  margin-right: -12px;
+  border-left: 8%;
   line-height: 200%;
-
+  margin-right: -6%;
 }
 
 .destination2{
   width: 56%;
   display: inline-block;
   line-height: 200%;
-  margin-right: -12px;
+  margin-right: -3%;
 }
 .time2{
   width: 22%;
   display: inline-block;
-  margin-right: -2px;
   line-height: 200%;
+
+  margin-right: -3%;
 }
 
 
@@ -77,18 +77,15 @@ li{
 {
   .container{
   	display: block;
-    width: 600px;
+      width: 100%;
   }
 
   .parentbar {
-      width: 600px;
+      width: 100%;
       background-color: #ff5959;
       display: block;
     }
 
-    img {
-      display: block;
-    }
 
     body {
       background-color: #001930;
@@ -107,11 +104,7 @@ li{
     }
 
 
-    .time2{
-      width: 20%;
-      display: inline-block;
-      margin-right: -2px;
-      line-height: 200%;
+
     }
 
 }
